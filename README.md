@@ -24,6 +24,8 @@ In your project's Gruntfile, add a section named `deploy_wpxap` to the data obje
 This works by creating a local deployXapCmd.cmd file local to your grunt file and executing this file.  I am not too happy
 with this route but it was the only way I could get this to work.
 
+For details on launching the xap and its options please see this [MSDN](http://msdn.microsoft.com/en-us/library/windowsphone/develop/ff402565.aspx) article.
+
 ```js
 grunt.initConfig({
     deploy_wpxap: {
